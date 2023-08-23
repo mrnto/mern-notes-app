@@ -13,7 +13,7 @@ export interface SignInCredentials {
 }
 
 export const getSignedInUser = async (): Promise<User> => {
-    const response = await fetchData("api/users", { method: "GET" });
+    const response = await fetchData("/api/users", { method: "GET" });
     return response.json();
 };
 
