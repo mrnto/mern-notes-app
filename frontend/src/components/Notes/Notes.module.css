@@ -1,0 +1,12 @@
+.note_add_btn {
+    margin: .5rem 0;
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 900;
+    cursor: pointer;
+    border: 0.125rem solid var(--color-white);
+}
+
+.note_add_btn::before {
+    content: "+";
+}

@@ -1,0 +1,27 @@
+.form_input {
+    width: 100%;
+    margin-bottom: 2rem;
+}
+
+.form_input input,
+.form_input textarea {
+    width: 100%;
+    padding: 0.25rem;
+    font-family: monospace;
+    font-size: 1.25rem;
+    color: var(--color-white);
+    background: transparent;
+    outline: none;
+    border: none;
+    border-bottom: 0.125rem solid var(--color-white);
+}
+
+.form_input textarea {
+    resize: none;
+    overflow: hidden;
+    border: 0.125rem solid var(--color-white);
+}
+
+.form_input p {
+    margin-top: 0.5rem;
+}
